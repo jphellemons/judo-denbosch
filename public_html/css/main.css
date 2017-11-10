@@ -1,0 +1,35 @@
+body{
+	background-image: url(../img/judogi.jpg);
+	background-attachment: fixed;
+	padding-top: 50px;
+}
+.jumbotron h1{
+	color: #FDBE11;
+}
+#map{
+	height: 600px;
+}
+div.jumbotron{
+	margin:0;
+}
+footer{
+	margin-top: 2em;
+	background-color:#EEEEEE;
+	font-size: smaller;
+	border-top: 2px solid #555;
+}
+iframe{ 
+	overflow: hidden;
+}
+footer span{ 
+	line-height: 48px;
+}
+div.panel-body{ 
+	min-height: 230px;
+}
+h2{ 
+	padding-top:50px;
+}
+#boeken img{
+	margin-bottom: 2em;
+}
