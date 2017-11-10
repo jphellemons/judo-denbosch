@@ -37,11 +37,6 @@ function initialize() {
   };
   map = new google.maps.Map(document.getElementById('map'), mapOptions);
   
-  var m1 = new google.maps.Marker({
-	  position: new google.maps.LatLng(51.684319, 5.330691),
-	  map: map,
-	  title: 'Fujiyama gym'
-  });
   var m2 = new google.maps.Marker({
 	  position: new google.maps.LatLng(51.695904, 5.322186),
 	  map: map,
@@ -71,11 +66,6 @@ function initialize() {
 	  position: new google.maps.LatLng(51.694696, 5.265838),
 	  map: map,
 	  title: 'kradolf'
-  });
-  google.maps.event.addListener(m1, 'click', function() {
-	$('html, body').animate({
-		scrollTop: $("#fujiyama").offset().top
-	}, 2000);
   });
   google.maps.event.addListener(m2, 'click', function() {
 	$('html, body').animate({
