@@ -2,7 +2,6 @@ var map;
 			
 $(document).ready(function() {
 	loadScript();
-	
 	$('body').scrollspy({ target: '#nav' })
 	
 	$(function() {
@@ -52,20 +51,15 @@ function initialize() {
 	  map: map,
 	  title: 'Sportacademie van Gent'
   });
-  var m5 = new google.maps.Marker({
-	  position: new google.maps.LatLng(51.722481, 5.316007),
-	  map: map,
-	  title: 'flik flak'
-  });
   var m6 = new google.maps.Marker({
 	  position: new google.maps.LatLng(51.727076, 5.287780),
 	  map: map,
-	  title: 'reflex'
+	  title: 'Sportcenter Reflex'
   });
   var m7 = new google.maps.Marker({
 	  position: new google.maps.LatLng(51.694696, 5.265838),
 	  map: map,
-	  title: 'kradolf'
+	  title: 'Judoschool Kradolfer'
   });
   google.maps.event.addListener(m2, 'click', function() {
 	$('html, body').animate({
@@ -80,11 +74,6 @@ function initialize() {
   google.maps.event.addListener(m4, 'click', function() {
 	$('html, body').animate({
 		scrollTop: $("#vanGent").offset().top
-	}, 2000);
-  });
-  google.maps.event.addListener(m5, 'click', function() {
-	$('html, body').animate({
-		scrollTop: $("#flikFlak").offset().top
 	}, 2000);
   });
   google.maps.event.addListener(m6, 'click', function() {
